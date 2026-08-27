@@ -5,10 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+
+        th,
+        td {
+            border: 1px solid #444444;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Categoria</th>
+                <th>Recurso Técnico</th>
+                <th>Plano Bronze </th>
+                <th>Plano Silver </th>
+                <th>Plan Gold </th>
+                <th>Atendimento </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4"><b>Infraestrutura</b></td>
+                <td><b>vCPUs</b></td>
+                <td>1 vCPU</td>
+                <td>2 vCPUs</td>
+                <td>4 vCPUs</td>
+                <td rowspan="2">Suporte Básico<br>(Bronze/Silver)</td>
+            </tr>
+            <tr>
+                <td><b>Memória RAM</b></td>
+                <td>2 GB</td>
+                <td>4 GB</td>
+                <td>8 GB</td>
+            </tr>
 
+            <tr>
+                <td><b>Espaço SSD</b></td>
+                <td>20 GB</td>
+                <td>50 GB</td>
+                <td>100 GB</td>
+            </tr>
+            <tr>
+                <td><b>Banda Mensal</b></td>
+                <td>1 TB</td>
+                <td rowspan="1">Ilimitada para Silver e Gold</td>
+            </tr>
+            <tr>
+                <td rowspan="4"><b>Segurança</b></td>
+                <td><b>SSL Protegido</b></td>
+                <td>Grátis para todos os planos</td>
+                <td>Suporte VIP (Gold) 24/7</td>
+            </tr>
+            <tr>
+                <td><b>Backup Diário</b></td>
+                <td>Não incluso</td>
+                <td>Adicional R$ 10/mês</td>
+                <td>Grente de Conta Exclusivo</td>
+            </tr>
+        </tbody>
+
+    </table>
 </body>
 
 </html>
